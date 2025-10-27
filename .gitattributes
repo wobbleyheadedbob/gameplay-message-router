@@ -1,0 +1,19 @@
+# Declare files that will always have Unix(LF) line endings on checkout.
+# Always encode to UTF-8
+*.h text eol=lf encoding=utf-8
+*.cpp text eol=lf encoding=utf-8
+*.gitmodules text eol=lf encoding=utf-8
+*.md text eol=lf encoding=utf-8
+*.ini text eol=lf encoding=utf-8
+*.cs text eol=lf encoding=utf-8
+
+*.h diff
+*.cpp diff
+*.java diff
+*.js diff
+*.pl diff
+*.txt diff
+*.ts diff
+*.html diff
+*.sh diff
+*.xml diff
